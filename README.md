@@ -29,8 +29,9 @@ This project is a simple, frontend only code using Bootstrap to demonstrate how 
 <img src="https://github.com/user-attachments/assets/21a4585a-dd8f-45ff-935a-29b34ec86b3c" alt="LargeWindow2" width="600"/>
 <img src="https://github.com/user-attachments/assets/6c80f68a-a1e8-4497-ab01-4cb3ed94713d" alt="LargeWindow3" width="600"/>
 <img src="https://github.com/user-attachments/assets/2d6be63e-8300-48f9-bcf3-e454246733e6" alt="LargeWindow4" width="600"/>
-<img src="https://github.com/user-attachments/assets/869ad40a-611f-4bfd-aad8-95055bcf56b1" alt="MobilView1" width="512"/>
-<img src="https://github.com/user-attachments/assets/39b5020f-8427-4daa-b71d-210070b33636" alt="MobilView2" width="512"/>
+<p>For mobil view:</p>
+<img src="https://github.com/user-attachments/assets/869ad40a-611f-4bfd-aad8-95055bcf56b1" alt="MobilView1" width="300"/>
+<img src="https://github.com/user-attachments/assets/39b5020f-8427-4daa-b71d-210070b33636" alt="MobilView2" width="300"/>
 
 ## Acknowledgments
 - All used assets are licensed under CC0.
