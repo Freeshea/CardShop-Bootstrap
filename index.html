@@ -1,0 +1,592 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>CardShop</title>
+    <style>
+        section {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+        <div class="container-fluid">
+            <a href="#main" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    <i class="bi bi-person-badge"></i>
+                    CardShop Online!
+                </span>
+            </a>
+            <!-- Toggle for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Normal navbar -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#aboutus" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us!</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#hotitems" class="nav-link">Hot Items</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#newitems" class="btn btn-secondary">Newest Items</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main intro -->
+    <section id="main">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-8 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">The Best Card Webshop</div>
+                        <div class="display-5 text-muted">More than a million cards for sale! </div>
+                    </h1>
+                    <a href="#hotitems" class="btn btn-secondary btn-lg">Buy now!</a>
+
+                    <!-- Offcanvas link -->
+                    <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="sidebar">Explore other webshops!</a>
+                </div>
+                <div class="col-md-3 text-center d-none d-md-block">
+                    <!-- Tooltip -->
+                    <span class="ttip" data-bs-placement="right" title="Intro card">
+                        <img class="img-fluid" src="/Assets/intro_card.jpg" alt="intro_card">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New items -->
+    <section id="newitems" class="bg-light mt-5">
+        <div class="container-md">
+            <div class="text-right border-bottom border-2">
+                <h2>Newest items</h2>
+            </div>
+            <div class="row my-5 g-0 align-items-center justify-content-center">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-dark-subtle">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 1</h5>
+                            <p class="lead card-subtitle mb-5">EE1 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">1.99 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-body-secondary">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 2</h5>
+                            <p class="lead card-subtitle mb-5">SE2 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">0.99 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-dark-subtle">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 3</h5>
+                            <p class="lead card-subtitle mb-5">EE1 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">2.49 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-body-secondary">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 4</h5>
+                            <p class="lead card-subtitle mb-5">EE1 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">1.89 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-dark-subtle">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 5</h5>
+                            <p class="lead card-subtitle mb-5">SE2 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">0.79 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-body-secondary">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 6</h5>
+                            <p class="lead card-subtitle mb-5">SE2 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">0.59 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Hot items -->
+    <section id="hotitems" class="bg-light mt-1">
+        <div class="container-md">
+            <div class="text-right border-bottom border-2">
+                <h2>Hotest items</h2>
+            </div>
+            <div class="row my-5 g-0 align-items-center justify-content-center">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-dark-subtle">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 7</h5>
+                            <p class="lead card-subtitle mb-5">BS1 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">101.99 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-body-secondary">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 8</h5>
+                            <p class="lead card-subtitle mb-5">BS2 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">78.00 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-dark-subtle">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 9</h5>
+                            <p class="lead card-subtitle mb-5">FO1 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">3.49 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-body-secondary">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 10</h5>
+                            <p class="lead card-subtitle mb-5">FO1 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">0.80 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-dark-subtle">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 11</h5>
+                            <p class="lead card-subtitle mb-5">BS2 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">0.02 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 bg-body-secondary">
+                        <div class="card-body text-center py-4">
+                            <h5 class="card-title">Card game item 12</h5>
+                            <p class="lead card-subtitle mb-5">CR2 Series</p>
+                            <i class="bi bi-card-image"></i>
+                            <p class="my-2 mt-5 text-primary fw-bold">0.50 €</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Divider texts -->
+    <section id="divider-texts">
+        <div class="row justify-content-center text-center text-light fw-bold bg-primary py-3">
+            <p class="col-12 col-md-3 my-2"><i class="bi bi-stack"></i> More than 1 million available cards</p>
+            <p class="col-12 col-md-3 my-2"><i class="bi bi-box-seam-fill"></i> Fast shipping internationally</p>
+            <p class="col-12 col-md-3 my-2"><i class="bi bi-tag-fill"></i> Lowest prices</p>
+            <p class="col-12 col-md-3 my-2"><i class="bi bi-cash-coin"></i> Money-back guarantee</p>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="aboutus">
+        <div class="container-md">
+            <div class="text-center">
+                <h2><i class="bi bi-bar-chart-fill"></i> Our Story...</h2>
+                <p class="lead text-muted">Discover how we transformed from a small start-up to a global leader</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-8 col-lg-6">
+                    <img src="/assets/group.jpg" class="img-fluid" alt="group">
+                </div>
+                <div class="col-lg-6">
+
+                    <!-- Accordion -->
+                    <div class="accordion" id="chapters">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">1.
+                                    Start-Up</button>
+                            </h2>
+                            <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Our journey began as a small, passionate start-up, driven by a love for trading
+                                        cards. From day one, we focused on curating a unique collection and delivering
+                                        exceptional customer service. Our goal was simple: to offer a personal touch and
+                                        become the go-to place for card enthusiasts.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                                    2. Small Business
+                                </button>
+                            </h2>
+                            <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>As we grew, the company evolved into a beloved small business. Our carefully
+                                        chosen range of trading cards expanded, and we honed our online platform to
+                                        enhance the shopping experience. We started to build a community, focusing on
+                                        reliable service and creating connections with our growing customer base.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                                    3. Local favorite
+                                </button>
+                            </h2>
+                            <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>With our reputation solidified, we became a local favorite. We expanded our reach within the community, offering local pickup and hosting events for fellow collectors. Our dedication to quality and personalized service turned us into a trusted local hub for all things trading cards.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                                    4. Continental expansion
+                                </button>
+                            </h2>
+                            <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Our ambitions grew more, and the company took its first steps onto the continental stage. We embraced international shipping and diversified our inventory to cater to a wider audience. Our platform adapted to multiple languages and currencies, reflecting our commitment to reaching card lovers across borders.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+                                    5. Global leader
+                                </button>
+                            </h2>
+                            <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Today, CardShop is a global player in the trading card market. Our expansive online store serves enthusiasts around the world with a vast selection and efficient global shipping. We take pride in connecting collectors from different continents, delivering exceptional service, and offering rare finds no matter where you are.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2><i class="bi bi-stars text-info"></i>Customer Feedback</h2>
+                <p class="lead">Read the experiences and feedback from our esteemed clients</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h5 class="mb-1">Must visit for collectors</h5>
+                            <p class="mb-1 fst-italic">"CardShop is a treasure trove for card collectors! The variety and quality of cards they offer are unmatched. I found several rare cards for my collection that I couldn't find anywhere else. Shipping was fast, and the packaging was impeccable. Highly recommend for anyone serious about cards!"
+                            </p>
+                            <small>— Jamie L.</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h5 class="mb-1">Excellent Customer Service</h5>
+                            <p class="mb-1 fst-italic">I had a fantastic experience with CardShop. Their customer service team went above and beyond to help me with my order. They responded quickly to my inquiries and even offered a discount on my next purchase. It's clear they value their customers and provide top-notch support.</p>
+                            <small>— Alex R.</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h5 class="mb-1">Great Value for Money</h5>
+                            <p class="mb-1 fst-italic">CardShop offers great value for money. The prices are competitive, and the quality of the cards is superb. I was pleasantly surprised by the affordability of their rare cards compared to other sellers. Definitely my go-to place for trading cards!</p>
+                            <small>— Morgan T.</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <h5 class="mb-1">Not so bad..</h5>
+                            <p class="mb-1 fst-italic">The buying process with CardShop was smooth and hassle-free. I appreciated the easy-to-navigate website and the clear product descriptions. My order arrived on time, but the cards were only in "good" condition.</p>
+                            <small>Taylor W.</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
+                            </div>
+                            <h5 class="mb-1">Local pickup was great</h5>
+                            <p class="mb-1 fst-italic">I love that CardShop offers local pickup options. It is fantastic to be able to pick up my orders in person and chat with the staff about new releases. The store has a welcoming atmosphere and a great selection. A perfect blend of convenience and community feel.</p>
+                            <small>— Sam K.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Have any questions or need support? Fill out the form below to get in touch with our team!</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+
+                <div class="col-lg-6">
+                    <form>
+                        <label for="email" class="form-label">Email address:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="email" placeholder="e.g. customer@example.com">
+
+                            <!-- tooltip -->
+                            <span class="input-group-text">
+                                <span class="ttip" data-bs-placement="bottom"
+                                    title="Enter an email address we can reply to.">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+
+                        <label for="name" class="form-label">Name:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name" placeholder="e.g. Customer John">
+
+                            <!-- tooltip -->
+                            <span class="input-group-text">
+                                <span class="ttip" data-bs-placement="bottom" title="Enter your first and last name...">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+
+                        <label for="subject" class="form-label">What is your question about?</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-right-dots-fill"></i>
+                            </span>
+                            <select class="form-select" id="subject">
+                                <option value="lost-package" selected>Lost package</option>
+                                <option value="safety">Safety concerns</option>
+                                <option value="refund">Refund</option>
+                                <option value="user-error">User error</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-floating mb-4 mt-5">
+                            <textarea class="form-control" style="max-height: 200px; min-height: 140px;" id="query"></textarea>
+                            <label for="query" class="form-label">Describe your problem...</label>
+                        </div>
+
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-top px-5 bg-light" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Other webshops</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row align-items-center">
+                <!-- Left side (text and dropend) -->
+                <div class="col-md-8">
+                    <p>Choose where you want to explore more!</p>
+
+                    <!-- Dropend -->
+                    <div class="dropend">
+                        <button class="btn btn-secondary dropdown-toggle" aria-expanded="false" type="button"
+                            id="webshop-dropend" data-bs-toggle="dropdown">
+                            Webshops
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="webshop-dropend">
+                            <li><a href="#" class="dropdown-item">New Brand Clothes Webshop</a></li>
+                            <li><a href="#" class="dropdown-item">Brilliant Star Glasses</a></li>
+                            <li><a href="#" class="dropdown-item">High Fashion eShop</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right side (image) -->
+                <div class="col-md-4 text-end d-none d-md-inline">
+                    <span class="ttip" data-bs-placement="right" title="Webshop cart image">
+                        <img class="img-fluid" src="/Assets/shopping_cart.jpg" alt="webshop_cart"
+                            style="max-width: 250px;">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row d-none d-lg-flex">
+                <div class="col">
+                    <ul class="nav align-items-center justify-content-center fw-bold ">
+                        <li class="nav-item text-uppercase"><a href="#main" title="Main" class="nav-link">CardShop</a>
+                        </li>
+                        <li class="nav-item text-uppercase"><a href="#aboutus" title="About Us" class="nav-link">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item text-uppercase"><a href="#reviews" title="Reviews" class="nav-link">Customer feedback</a>
+                    </li>
+                        <li class="dropup nav-item ms-auto">
+                            <a href="#" data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+                                aria-expanded="false" class="nav-link dropdown-toggle text-nowrap text-uppercase">
+                                <small class="text-muted text-secondary">Language:</small>
+                                <span>English</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li>
+                                    <h6 class="d-none d-lg-block dropdown-header dropdown-item">Choose a language</h6>
+                                </li>
+                                <li><a href="#" title="Français" class="dropdown-item text-uppercase fw-bold">
+                                        <span>Français</span>
+                                    </a></li>
+                                <li><a href="#" title="Deutsch" class="dropdown-item text-uppercase fw-bold">
+                                        <span>Deutsch</span>
+                                    </a></li>
+                                <li><a href="#" title="Español" class="dropdown-item text-uppercase fw-bold">
+                                        <span>Español</span>
+                                    </a></li>
+                                <li><a href="#" title="Italiano" class="dropdown-item text-uppercase fw-bold">
+                                        <span>Italiano</span>
+                                    </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col col-lg-6">
+                    <p id="copyright" class="text-muted text-center text-lg-start px-3"><small>© Copyright
+                            2024&nbsp;CardShop CO. All rights reserved.</small></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltips = document.querySelectorAll('.ttip')
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t)
+        })
+    </script>
+</body>
+
+</html>
